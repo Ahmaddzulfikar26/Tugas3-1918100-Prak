@@ -98,11 +98,14 @@
                     app:cardCornerRadius="6dp"
                     app:cardElevation="0dp">
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="90dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/pp" />
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/xc"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -110,12 +113,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/proximanovaregular"
-                        android:text="Sanskar Tiwari"
+                        android:text="Ahmad Dzulfikar"
                         android:textColor="#424242"
                         android:textSize="21sp"
                         android:textStyle="bold" />
@@ -124,7 +128,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/proximanovaregular"
-                        android:text="Android Developer"
+                        android:text="Informatic Design"
                         android:textSize="14sp" />
 
 
@@ -391,10 +395,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
-                                android:text="+91 7999193854"
-                                android:textSize="15sp"
+                                android:fontFamily="@font/proximanovaregular"
+                                android:text="+6285555567821"
                                 android:textColor="@color/goodgrey"
-                                android:fontFamily="@font/proximanovaregular" />
+                                android:textSize="15sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -415,10 +419,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
+                                android:fontFamily="@font/proximanovaregular"
+                                android:text="1918100@scholar.itn.ac.id"
                                 android:textColor="@color/goodgrey"
-                                android:text="sanskar@theindianappguy.com"
-                                android:textSize="15sp"
-                                android:fontFamily="@font/proximanovaregular" />
+                                android:textSize="15sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -439,10 +443,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
-                                android:text="Leeds, United Kingdom"
-                                android:textSize="15sp"
+                                android:fontFamily="@font/proximanovaregular"
+                                android:text="Kota Malang"
                                 android:textColor="@color/goodgrey"
-                                android:fontFamily="@font/proximanovaregular" />
+                                android:textSize="15sp" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -505,8 +509,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
-                                android:text="Expert in Photoshop, Adobe XD"
-                                android:textSize="15sp"/>
+                                android:text="Ahli dalam bidang apapun (dalam hal berimajiinasi)"
+                                android:textSize="15sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -527,7 +531,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
-                                android:text="sanskar@theindianappguy.com"
+                                android:text="zulskyy666@gmail.co.id"
                                 android:textSize="15sp" />
                         </LinearLayout>
 
@@ -549,7 +553,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
-                                android:text="Leeds, United Kingdom"
+                                android:text="Kota Malang"
                                 android:textSize="15sp" />
                         </LinearLayout>
 
@@ -603,7 +607,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
                                 android:fontFamily="@font/proximanovaregular"
-                                android:text="at TheIndianAppGuy"
+                                android:text="at Zulskyy666 App"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -624,7 +628,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
-                            android:text="Sep 2010 - Jan 2013"
+                            android:text="Jan 2019 - Okt 2021"
                             android:textSize="12sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -670,7 +674,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
                                 android:fontFamily="@font/proximanovaregular"
-                                android:text="at TheIndianAppGuy"
+                                android:text="at Zulskyy666 App"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -691,7 +695,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
-                            android:text="Sep 2010 - Jan 2013"
+                            android:text="Jan 2019 - Okt 2021"
                             android:textSize="12sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -737,7 +741,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
                                 android:fontFamily="@font/proximanovaregular"
-                                android:text="at TheIndianAppGuy"
+                                android:text="at Zulskyy666 App"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -758,7 +762,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
-                            android:text="Sep 2010 - Jan 2013"
+                            android:text="Jan 2019 - Okt 2021"
                             android:textSize="12sp"
                             android:textStyle="bold" />
                     </LinearLayout>
